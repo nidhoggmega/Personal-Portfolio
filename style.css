@@ -1,0 +1,210 @@
+/*font and background*/
+
+body {
+	padding:0;
+	
+	background:#FFF;	
+}
+
+/*Icon*/
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+} 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.heading{
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    background-color: white;
+}
+
+#title {
+    margin: 0;
+    padding: 15px;
+    list-style: none;
+}
+
+.library{
+    padding: 20px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.title-thin {
+    font-size: 2.00em;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+        float: left;
+        width: 100px;
+        overflow:hidden;
+        clear: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 112px;
+    }
+    .heading{
+        flex-wrap: wrap;
+
+    }
+}
+
+.clear-mrg > *:last-child {
+    margin-bottom: 0;
+}
+#face{
+    border-radius: 50%;
+    width:250px;
+}
+
+/*background*/
+.back_home{
+    background-image: url("img/ba.jpg");
+}
+.back_about{
+    background-image: url("img/ba2.jpg");
+}
+.back1{
+    padding: 25px;
+    background: url("img/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    min-height:700px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back2{
+    padding: 25px;
+    background: url("img/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    min-height:500px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back3{
+    padding: 25px;
+    background: url("img/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    min-height:700px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back4{
+    background:url("img/back4.jpg");
+    min-height: 600px;
+    color: white;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back_p{
+    padding: 25px;
+    background: url("img/ba_p.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    min-height:700px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back_c{
+    padding: 25px;
+    background: url("img/ba_c.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    min-height:700px;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mail{
+    text-decoration:none;
+    color:white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    background-color: white;
+    min-height: 100px;
+}
+#skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#skill > div {
+    flex: 1 1 auto;
+    text-align: center;  
+    margin: 5px;  
+}
+.skill{
+    background:url("img/skill.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: auto;
+}
+.interest{
+    background: url("img/interest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+    color: black;
+
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

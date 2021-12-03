@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="slide.css" rel="stylesheet">
+        <link href="contact.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="background:url(img/ba_co.jpg);">
+        <button onclick="topFunction()" id="up" title="Go to top">Top</button> 
+        <script src="me.js"></script>
+        <ul class="heading" id="title">
+            <li><a class ="library" href="index.html">Home</a></li>
+            <li><a class ="library" href="about.html">About</a></li>
+            <li><a class ="library" href="project.html">Project</a></li>
+            <li><a class ="library" href="contact.html">Contact</a></li>
+        </ul>
+        <br>
+        <section class="back_c" id="container">
+            <h1 style="font-size: 60px;">Contact Me!</h1>
+
+            <p style="font-size: 25px;">Feel freee to contact me if you wish to make a project with me!</p>
+        </section>
+        <br>
+        <br>
+        <div class="container1">
+            <form id="form" action="#" method="post" target="_blank" onsubmit="submitForm()">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="Your name.." required="required">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="email" name="mail" placeholder="Your Email.." required="required">
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="subj">Subject</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="subj" name="subject" placeholder="eg.Basement Code.." required="required">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="subject">Comment</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="ct" name="omment" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+                </div>
+                <br>
+                <div class="row">
+                <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <br>
+        <br>
+        <section class="foot" id="social">
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.gmail.com" class="fa fa-google"></a>
+        </section>
+    </body>
+</html>
